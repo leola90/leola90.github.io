@@ -1,10 +1,10 @@
+
 .header-bar {
 	background-color: #ffffff;
 	width: 100%;
 	height: 82px;
 	position: absolute;
-	top: 0;
-	left: 0;
+	
 	z-index: -1;
 }
 
@@ -13,32 +13,42 @@
 	margin: auto;
 }
 
+.background {
+	
+	background-color: #ffffff;
+}
+
 .heading {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
 	font-weight: bold;
 	background-color: #4aaaa5;
-	padding: 25px 5px 25px 5px;
-	width: 250px;
+	padding: 20px 5px 20px 5px;
+	width: 200px;
 	margin: auto;
 	text-align: center;
 	color: #ffffff;
-    position: right;
-	right: 250px;
+    right: 250px;
+   
 }
+
+
 
 .navigation {
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 16px;
+	font-size: 12px;
 	background-color: #ffffff
 	width: 300px;
-	padding: 33px 10px 33px 10px;
+	padding: 30px 10px 30px 10px;
 	margin: auto;
-	text-align: center;
+	text-align: right;
     color: #777777;	
 }
 
-
+h1, .navigation {
+    display: inline;
+    
+}
 
 .main-section {
 	background-color: #ffffff;
@@ -59,6 +69,15 @@
 	font-weight: bold;
 }
 
+.Contact {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 22px;
+	padding: 25px;
+	padding-bottom: 0;
+	color: #4aaaa5;
+	font-weight: bold;
+}
+
 .Picture {
 	width: 20%;
 	z-index: 2;
@@ -71,7 +90,7 @@
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 16px;
 	text-align: justify;
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-right: 20px;
 	line-height: 18px;
 }
@@ -86,12 +105,6 @@ hr {
 	margin: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
-}
-
-
-.background {
-	margin: 0 auto;
-	background-color: #ffffff;
 }
 
 section {
@@ -121,9 +134,51 @@ div {
 	padding: 10px 0px;
 	color: #ffffff;
 	margin-top: 30px;
-	/* Teal Border Above Footer*/
 	border-top: 6px solid #4aaaa5;
 }
 
 
+form {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 25px;
+	color: #777777;
+	font-size: 18px;
+	line-height: 20px;
+}
 
+input[type=text], select {
+	width: 600px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	padding: 6px 12px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+textarea[type=textarea], select {
+	width: 600px;
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #777777;
+	border-radius: 4px;
+	padding: 6px 12px;
+	min-height: 100px;
+	box-sizing: border-box;
+	color: #777777;
+}
+
+input[type=submit] {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 12px 48px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: middle;
+}
