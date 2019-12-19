@@ -32,8 +32,6 @@
    
 }
 
-
-
 .navigation {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 12px;
@@ -182,3 +180,12 @@ input[type=submit] {
 	font-size: 20px;
 	text-align: middle;
 }
+
+.Pics1 {
+	width: 200px;
+	height: 150px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: flexbox;
+}
+
