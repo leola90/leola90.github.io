@@ -2,46 +2,51 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Leo La Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Leo La Bio</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1> Leo La</h1>
-        </header>
-
-        <nav>
-                <a href="index.html">About</a>
-                <span> | </span>
-                <a href="portfolio.html">Porfolio</a> 
-                <span> | </span>
-                <a href="contact.html">Contact</a> 
-        </nav>   
-    </div>
-    
-    <div class="main-content">
-        <section class="main_section">
-            <h2>About Me</h2>
+    <div class="container">
+        <div class="header">
+            <h4>Leo La</h4>
+            <div class="item">
+                <a href="index.html" class="link">About</a>
+                <a href="portfolio.html" class="link">Portfolio</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title">About Me</h2>
+            </div>
             <hr>
-                <img id="Picture" src="assets/images/Profile.PNG" alt="Leo La">
-                <p class="bodytext"> 
-                    Leo La is currently working at the Greater Houston Partnership as an IT technician.  He is working on developing additional skills by enrolling in a Coding Bootcamp course through the University of Austin, Texas.  With this course, he will build a portfolio of web applications, learning about different programming languages such as HTML5, CSS3, Java, JavaScript, MySQL, and much more.  
+            <div class="card-body">
+                <img class="img-top" id="bio-image" src="assets/images/Profile.PNG" alt="Leo La">
+                <p class="card-text"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus in ipsum iaculis ullamcorper. Duis ut lobortis lacus. Duis dictum eget leo eu dignissim. 
+                Vestibulum aliquet velit et lectus iaculis, sodales ullamcorper mauris congue. Curabitur ut orci magna. Nulla bibendum leo tellus, at eleifend tortor cursus eget. 
+                Praesent cursus turpis est, eu gravida sem auctor eget. Morbi in nibh eleifend, commodo mi et, tincidunt ipsum. Ut vel elit faucibus, aliquam nisl non, aliquet ligula. 
+                Cras pulvinar hendrerit arcu non viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ex sapien, lacinia ut erat at, fringilla eleifend mi. 
+                Ut nulla velit, sollicitudin id urna eget, egestas malesuada eros. Phasellus interdum dui nec nisi pellentesque, et vestibulum orci eleifend. Vivamus vitae dui quis 
+                elit finibus tincidunt. Nunc hendrerit purus risus, sit amet viverra mauris commodo vel. Donec auctor ac odio id pharetra. Donec augue dolor, convallis vel odio ac, 
+                tristique faucibus est. Donec laoreet vulputate diam, in varius odio varius vel. Curabitur hendrerit malesuada commodo. Vestibulum massa est, consequat in eleifend lacinia, 
+                consectetur eget ipsum. Suspendisse suscipit elementum purus luctus ornare. Ut a felis magna. Nullam nec haretra tortor. Quisque vehicula velit nisl, at vulputate elit maximus a. 
+                Duis a hendrerit urna, non volutpat lacus. Donec eget semper ipsum. Aliquam erat volutpat. Sed convallis vehicula dolor, ut ultricies quam porta ac. Ut auctor malesuada sagittis.
+                 Maecenas quis est quam.
                 </p>
-                <p>
-                    During his free time, Leo likes to design and play with machines on his Raspberry Pi.  He also enjoys solving logic puzzles and traveling around the world. 
-                </p>
-        </section>	
+            </div>
+        </div>
     </div>
-    
+    <section class="footer-zone"></section>
+        <footer class="footer">
+	        <h4>Copyright &copy 2020</h4>
+        </footer>
 </body>
-
-<section class="footer-zone"></section>
-
-<footer class="footer">
-	<h4>Copyright &copy</h4>
-</footer>
 
 </html>

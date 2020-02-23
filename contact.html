@@ -2,52 +2,51 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Leo La Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Leo La Bio</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1> Leo La</h1>
-        </header>
-
-        <nav>
-                <a href="index.html">About</a>
-                <span> | </span>
-                <a href="portfolio.html">Porfolio</a> 
-                <span> | </span>
-                <a href="contact.html">Contact</a> 
-        </nav>   
-    </div>
-    
-    <div class="main-content">
-		<section class="main_section">
-            <h2>Contact</h2>
-            <hr>
-			<form>
-				Name<br>
-				<input type="text" name="fullname" value="John Smith">
-				<br>
-				Email<br>
-				<input type="text" name="email" value="example@gmail.com">
-				<br>
-				Message<br>
-				<textarea type="textarea" name="textarea" value=""></textarea>
-				<br>
-				
-				<input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
-			</form>
-		</section>
+    <div class="container">
+        <div class="header">
+            <h4>Leo La</h4>
+            <div class="item">
+                <a href="index.html" class="link">About</a>
+                <a href="portfolio.html" class="link">Portfolio</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+        </div>
+        <br>
+    	<div class="main-content">
+			<section class="main_section">
+            	<h2>Contact</h2>
+            	<hr>
+				<form>
+					Name<br>
+					<input type="text" name="fullname" value="John Smith">
+					<br>
+					Email<br>
+					<input type="text" name="email" value="example@gmail.com">
+					<br>
+					Message<br>
+					<textarea type="textarea" name="textarea" value=""></textarea>
+					<br>
+					<input type="submit" name="submit" onclick="alert('Thank you!')" value="Submit">
+				</form>
+			</section>
+		</div>
 	</div>
     
-</body>
+
 
 <section class="footer-zone"></section>
 
 <footer class="footer">
 	<h4>Copyright &copy</h4>
 </footer>
-
+</body>
 </html>

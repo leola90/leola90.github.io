@@ -2,44 +2,57 @@
 <html lang="en-US">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Leo La Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Leo La Bio</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/CSS" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1> Leo La</h1>
-        </header>
-
-        <nav>
-                <a href="index.html">About</a>
-                <span> | </span>
-                <a href="portfolio.html">Porfolio</a> 
-                <span> | </span>
-                <a href="contact.html">Contact</a> 
-        </nav>   
-    </div>
-
-    
-    <div class="main-content">
-        <section class="main_section">
-            <h2>Portfolio</h2>
+    <div class="container">
+        <div class="header">
+            <h4>Leo La</h4>
+            <div class="item">
+                <a href="index.html" class="link">About</a>
+                <a href="portfolio.html" class="link">Portfolio</a>
+                <a href="contact.html" class="link">Contact</a>
+            </div>
+        </div>
+        <hr>
+        <div class="card">
+            <h2 class="card-title">Portfolio</h2>
             <hr>
-                <img class="Pics1" src="http://lorempixel.com/125/125/technics/1/cc/" alt="Hangman">
-		        <img class="Pics1" src="http://lorempixel.com/125/125/technics/2/cc/" alt="RPG">
-		        <img class="Pics1" src="http://lorempixel.com/125/125/technics/5/cc/" alt="Trivia Game">
-		        <img class="Pics1" src="http://lorempixel.com/125/125/technics/7/cc/" alt="Rutgers Info Widgets">
-		        <img class="Pics1" src="http://lorempixel.com/125/125/technics/9/cc/" alt="Rock Paper Scissor">
-        </section>
+            <div class="card-body">
+                <img class="Picture" src="http://lorempixel.com/125/125/technics/1/cc/" alt="Hangman">
+                <div class="card-title">Random Password Generator</div>
+                <p class="card-text">Creating a random password</p>
+                <a href="https://leola90.github.io/hw3pwgenerator/" class="btn btn-primary">Link</a>
+            </div>
+            <div class="card-body">
+                <img class="Picture" src="http://lorempixel.com/125/125/technics/2/cc/" alt="RPG">
+                <div class="card-title">Weather App</div>
+                <p class="card-text">Get information about your local weather through API</p>
+                <a href="https://leola90.github.io/WeatherDashboardAPI/" class="btn btn-primary">Link</a>
+            </div>
+            <div class="card-body">
+                <img class="Picture" src="http://lorempixel.com/125/125/technics/7/cc/" alt="Rutgers Info Widgets">
+                <div class="card-title">Work Day Scheduler</div>
+                <p class="card-text">Scheduler</p>
+                <a href="https://leola90.github.io/hw3pwgenerator/" class="btn btn-primary">Link</a>
+            </div>
+            <div class="card-body">
+                <img class="Picture" src="http://lorempixel.com/125/125/technics/5/cc/" alt="Trivia Game">
+                <div class="card-title">Project One</div>
+                <p class="card-text">Event Spite</p>
+                <a href="https://leola90.github.io/eventspite/" class="btn btn-primary">Link</a>
+            </div>
+            <hr>
+        <section class="footer-zone"></section>
+            <footer class="footer">
+	            <h4>Copyright &copy</h4>
+            </footer>
     </div>
 </body>
-
-<section class="footer-zone"></section>
-
-<footer class="footer">
-	<h4>Copyright &copy</h4>
-</footer>
-
 </html>
